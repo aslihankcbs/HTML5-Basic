@@ -1,0 +1,30 @@
+<form action="somesite.html">
+  <label>First Name : </label>
+  <input name="firstName" type="text">
+  <br>
+  <label>Password : </label>
+  <input name="password" type="password" required>
+  <br>
+  <label>Cinsiyet : </label>
+  <select name="gender">
+    <option>Erkek</option>
+    <option>Kadın</option>
+  </select>
+  <br>
+  <label>En sevdiğiniz araba? : </label>
+  <select name="car" size="5" multiple>
+    <option>Volvo</option>
+    <option>BMV</option>
+    <option>Mercedes</option>
+    <option>Audi</option>
+    <option>Renault</option>
+    <option>Peugeot</option>
+  </select>
+  <br>
+  <label>Hakkınızda : </label>
+  <textarea name="biography" rows="4" cols="30"></textarea>
+  <br>
+  <input type="submit" value="Kaydet" />
+  <br>
+  <button onClick="alert('Kaydete basıldı!')">Kaydet</button><!--buton genellikle JS aksiyomu yazmak için kullanılır/JS çağırmak için kullanılıyor yani -->
+</form>
